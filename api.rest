@@ -1,0 +1,14 @@
+POST http://localhost:6005/api/user/add-person
+Content-Type: application/json
+
+{
+    "name": "",
+    "age": "",
+    "email": "",
+    "address": ""
+}
+
+###
+// all person
+GET http://localhost:6005/api/user/person
+Content-Type: application/json
